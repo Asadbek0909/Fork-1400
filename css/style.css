@@ -43,7 +43,10 @@ ul {
 .guide__content {
     display: flex;
     column-gap: 326px;
-    position: relative;
+}
+
+.guide__image-image {
+    padding-left: 80px;
 }
 
 .guide__desc {
@@ -53,24 +56,25 @@ ul {
 }
 
 .guide__desc-title {
-    margin-right: 275px;
+    max-width: 225px;
     width: 100%;
     color: #692340;
     font-weight: 400;
     font-size: 112px;
     line-height: 150px;
     text-align: center;
+    margin: auto;
 }
 
 .guide__desc-text {
     max-width: 450px;
     width: 100%;
-    justify-content: center;
-    text-align: center;
     color: #692340;
     font-weight: 400;
     font-size: 39px;
     line-height: 44px;
+    text-align: center;
+    margin: auto;
 }
 
 .guide__desc-text2 {
@@ -87,32 +91,28 @@ ul {
     display: flex;
     flex-direction: column;
     row-gap: 37px;
-    position: absolute;
 }
 
 .guide__footer-title {
-    position: absolute;
-    top: 113px;
-    left: 488px;
+    margin: auto;
+    margin-top: 113px;
+    max-width: 465px;
     width: 100%;
     font-weight: 400;
     font-size: 54px;
     line-height: 54px;
     color: #692340;
-    align-items: center;
 }
 
 .guide__footer-text {
-    position: absolute;
-    top: 258px;
-    left: 300px;
-    bottom: 0;
     max-width: 661px;
     width: 100%;
     color: #692340;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
+    text-align: center;
+    margin: auto;
 }
 
 
