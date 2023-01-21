@@ -1,28 +1,30 @@
 @import url(./fonts.css);
-
-
-:root{
+:root {
     --font-primary: 'Roboto';
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-primary);
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
-.container{
+
+.container {
     max-width: 1376px;
     width: 100%;
-    margin:  auto;
+    margin: auto;
     padding: 0 12px;
 }
+
 
 /* header start */
 
@@ -32,16 +34,89 @@ ul{
 
 /* membership start */
 
+
 /* membership end */
 
 
 /* guide start */
 
+.guide__content {
+    display: flex;
+    column-gap: 326px;
+    position: relative;
+}
+
+.guide__desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.guide__desc-title {
+    left: 871px;
+    text-align: center;
+    color: #692340;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 150px;
+}
+
+.guide__desc-text {
+    width: 100%;
+    text-align: center;
+    color: #692340;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 44px;
+}
+
+.guide__desc-text2 {
+    max-width: 463px;
+    width: 100%;
+    color: #692340;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.guide__footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 37px;
+    position: relative;
+}
+
+.guide__footer-title {
+    position: absolute;
+    top: 113px;
+    left: 488px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 54px;
+    color: #692340;
+    align-items: center;
+}
+
+.guide__footer-text {
+    position: absolute;
+    top: 258px;
+    left: 300px;
+    bottom: 0;
+    max-width: 661px;
+    width: 100%;
+    color: #692340;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
 /* guide end */
 
 
 /* info start */
-
 
 
 /* info end */
@@ -50,24 +125,16 @@ ul{
 /* slider start */
 
 
-
-
 /* slider end */
 
 
 /* already start */
 
 
-
-
 /* already end */
 
 
-
-
 /* community start */
-
-
 
 
 /* community end */
@@ -76,17 +143,10 @@ ul{
 /* place start */
 
 
-
-
 /* place end */
 
 
 /* footer start */
 
 
-
-
 /* footer end */
-
-
-
