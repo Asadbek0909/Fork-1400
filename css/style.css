@@ -93,6 +93,10 @@ ul {
     row-gap: 37px;
 }
 
+.guide__image-image {
+    margin-top: 17px;
+}
+
 .guide__footer-title {
     margin: auto;
     margin-top: 113px;
